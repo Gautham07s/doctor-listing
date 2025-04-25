@@ -1,12 +1,38 @@
-# React + Vite
+# 🏥 Doctor Listing Page - Campus Assessment
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a responsive web application built with **React** to list doctors with client-side **search, filter, and sort** functionalities. The app uses an API to fetch doctor data and allows users to filter results based on **consultation mode**, **specialties**, and **sort options**.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 📸 Preview
 
-## Expanding the ESLint configuration
+![Preview Screenshot](./preview.png) <!-- Optional: Add screenshot or attach later -->
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🚀 Features
+
+- 🔍 **Autocomplete Search Bar** – Search by doctor names with dropdown suggestions.
+- 🧰 **Filter Panel**:
+  - Mode of consultation: Video / In Clinic
+  - Multi-select specialties
+  - Sort by fees (ascending) or experience (descending)
+- 🧠 All filtering and searching handled **entirely on the client side**
+- 🔗 **Query Parameters** persist search/filter settings on refresh and navigation
+- 🧪 Supports automated testing with `data-testid` attributes
+
+---
+
+## 🔧 Tech Stack
+
+- React (Vite or CRA)
+- JavaScript
+- HTML/CSS
+- Git & GitHub
+
+---
+
+## 🌐 API Used
+
+- **URL**: [Doctor API](https://srijandubey.github.io/campus-api-mock/SRM-C1-25.json)
+- All data is fetched once; filtering/search is client-side only.
